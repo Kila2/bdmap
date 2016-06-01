@@ -11,7 +11,7 @@ if [[ $z -eq 21 ]]; then
 		do 
 			name2=$(printf "%02d" $(($j + 1)))
 			#echo 18_$name1`echo _`$name2.jpg
-			mv $z`echo _`$name1`echo _`$name2.jpg $z`echo _`$(($x + $i))`echo _`$(($y - $j)).jpg
+			mv $z`echo _`$name1`echo _`$name2.jpg $z`echo _`$(($x + $j))`echo _`$(($y - $i)).jpg
 		done
 	done
 else
